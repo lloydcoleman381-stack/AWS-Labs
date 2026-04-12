@@ -1,0 +1,15 @@
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+*.csv
+
+# Ignore Terraform state and sensitive files
+*.tfstate
+*.tfstate.backup
+.terraform/
+*.tfvars
+.terraform.lock.hcl
+# Ignore the SSH Private Key
+*.pem
+aws_lab_key
